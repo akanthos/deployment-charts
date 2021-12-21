@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: quarkus-nginx-deployment
+spec:
+  selector:
+    matchLabels:
+      app: nginx
+  replicas: {{ .Values.deployment.replicas }}
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: {{ .Values.deployment.image }}
+        ports:
+        - containerPort: 80
