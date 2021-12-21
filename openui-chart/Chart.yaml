@@ -1,0 +1,4 @@
+apiVersion: v2
+description: This Chart deploys a OpenUI microservice.
+name: openui-chart
+version: "0.1.0"
