@@ -1,4 +1,4 @@
 apiVersion: v2
-name: quarkus-chart
-version: 0.1.0
 description: This Chart deploys a quarkus microservice.
+name: quarkus-chart
+version: "0.1.0"

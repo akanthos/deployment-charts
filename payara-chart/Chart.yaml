@@ -1,4 +1,4 @@
 apiVersion: v2
-name: payara-chart
-version: 1.0.0
 description: This Chart deploys a ui microservice.
+name: payara-chart
+version: "0.1.0"
