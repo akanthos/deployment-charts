@@ -11,6 +11,7 @@ helm package <chart-directory>
 
 ## Exposing the helm charts
 
+
 ### Exposing via Github Pages
 
 1. Enable Github Pages 
