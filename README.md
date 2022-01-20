@@ -47,14 +47,16 @@ Prerequisites:
     ```bash
     export HELM_EXPERIMENTAL_OCI=1
     ```
-4. 
+4. Login with helm into the ACR
     ```bash
     helm registry login $ACR_NAME.azurecr.io \
       --username $USER_NAME \
       --password $PASSWORD
+    ```
+5. Push chart as OCI artifact to the ACR
+    ```bash
     helm push charts/quarkus-chart-0.1.0.tgz oci://$ACR_NAME.azurecr.io/deployment-charts
     ```
-
 ## Installing a specific app version
 
 #### Using the local definitions
