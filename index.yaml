@@ -2,45 +2,45 @@ apiVersion: v1
 entries:
   openui-chart:
   - apiVersion: v2
-    created: "2022-01-26T17:03:40.494201+01:00"
+    created: "2022-01-26T17:04:57.93755+01:00"
     description: This Chart deploys a OpenUI microservice.
     digest: d885b7a0de34785fda3aa3ce4ac96fdb9b5c975d2e39ffeeddfb628e2cf05793
     name: openui-chart
     urls:
-    - https://akanthos.github.io/deployment-charts/charts/openui-chart-0.1.0.tgz
+    - https://raw.githubusercontent.com/akanthos/deployment-charts/main/charts/openui-chart-0.1.0.tgz
     version: 0.1.0
   payara-chart:
   - apiVersion: v2
-    created: "2022-01-26T17:03:40.494549+01:00"
+    created: "2022-01-26T17:04:57.937852+01:00"
     description: This Chart deploys a payara microservice.
     digest: a519e26408a4b1aa47edc965ceb77d8af017f49a6c2003f24e17524fc712d325
     name: payara-chart
     urls:
-    - https://akanthos.github.io/deployment-charts/charts/payara-chart-0.1.0.tgz
+    - https://raw.githubusercontent.com/akanthos/deployment-charts/main/charts/payara-chart-0.1.0.tgz
     version: 0.1.0
   quarkus-chart:
   - apiVersion: v2
-    created: "2022-01-26T17:03:40.495423+01:00"
+    created: "2022-01-26T17:04:57.938615+01:00"
     description: This Chart deploys a quarkus microservice.
     digest: 1e198fdf6554d72b19e8b22f8737e2e5d0dbade74d901ae6071b37b19384c157
     name: quarkus-chart
     urls:
-    - https://akanthos.github.io/deployment-charts/charts/quarkus-chart-0.3.0.tgz
+    - https://raw.githubusercontent.com/akanthos/deployment-charts/main/charts/quarkus-chart-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v2
-    created: "2022-01-26T17:03:40.495219+01:00"
+    created: "2022-01-26T17:04:57.938363+01:00"
     description: This Chart deploys a quarkus microservice.
     digest: 03ef5668993272ccf75337ddb1ba6671d41070e17c953e833bff26df09515d68
     name: quarkus-chart
     urls:
-    - https://akanthos.github.io/deployment-charts/charts/quarkus-chart-0.2.0.tgz
+    - https://raw.githubusercontent.com/akanthos/deployment-charts/main/charts/quarkus-chart-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
-    created: "2022-01-26T17:03:40.494886+01:00"
+    created: "2022-01-26T17:04:57.938101+01:00"
     description: This Chart deploys a quarkus microservice.
     digest: 0364c327c7145c7b42238d21e1e1fb3acef86b11dd911d8ca12be11f3278a119
     name: quarkus-chart
     urls:
-    - https://akanthos.github.io/deployment-charts/charts/quarkus-chart-0.1.0.tgz
+    - https://raw.githubusercontent.com/akanthos/deployment-charts/main/charts/quarkus-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2022-01-26T17:03:40.493658+01:00"
+generated: "2022-01-26T17:04:57.937125+01:00"
